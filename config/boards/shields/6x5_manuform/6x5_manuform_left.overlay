@@ -2,7 +2,7 @@
 
 #include "6x5_manuform.dtsi" 
 
-chosen {
+/chosen {
     zmk,kscan = &kscan0;
 };
 
