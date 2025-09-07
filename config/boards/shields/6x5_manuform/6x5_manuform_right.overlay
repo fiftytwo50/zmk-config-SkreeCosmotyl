@@ -2,15 +2,11 @@
 
 #include "6x5_manuform.dtsi"
 
-chosen {
-    zmk,kscan = &kscan0;
-};
-
 &default_transform {
     col-offset = <6>;
 };
 
-&kscan0 {
+kscan0: &kscan0 {
     compatible = "zmk,kscan-gpio-matrix";
     label = "KSCAN";
     diode-direction = "col2row";

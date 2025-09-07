@@ -1,14 +1,10 @@
 // 6x5_manuform_left.overlay
 
-#include "6x5_manuform.dtsi" 
+#include "6x5_manuform.dtsi"
 
-chosen {
-    zmk,kscan = &kscan0;
-};
-
-&kscan0 {
+kscan0: &kscan0 {
     compatible = "zmk,kscan-gpio-matrix";
-    label = "KSCAN";
+
     diode-direction = "col2row";
 
     col-gpios
