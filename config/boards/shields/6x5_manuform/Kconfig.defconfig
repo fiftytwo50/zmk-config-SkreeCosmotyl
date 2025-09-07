@@ -1,7 +1,7 @@
 if SHIELD_6x5_MANUFORM_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Jesse's Cosmotyl"
+    default "Cosmotyl"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
