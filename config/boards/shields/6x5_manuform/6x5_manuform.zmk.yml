@@ -3,6 +3,6 @@ id: 6x5_manuform
 Name: 6x5_manuform
 type: shield
 url: https://github.com/WainingForests/zmk-config-xiao/
-requires: [nice_nano_v2]
+requires: [pro_micro]
 features:
   - keys
